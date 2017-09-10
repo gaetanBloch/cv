@@ -1,0 +1,19 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "gaetan cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaetanBloch/cv.git"
+  },
+  "author": "gaetan bloch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaetanBloch/cv/issues"
+  },
+  "homepage": "https://github.com/gaetanBloch/cv#readme"
+}
