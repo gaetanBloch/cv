@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "1.0.0",
   "description": "gaetan cv",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/gaetanBloch/cv.git"
   },
-  "author": "gaetan bloch",
+  "keywords": [
+    "gaetan",
+    "bloch",
+    "cv",
+    "resume"
+  ],
+  "author": "Gaetan Bloch",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gaetanBloch/cv/issues"
   },
-  "homepage": "https://github.com/gaetanBloch/cv#readme"
+  "homepage": "https://github.com/gaetanBloch/cv#readme",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mongojs": "^2.4.1"
+  }
 }
